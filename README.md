@@ -1,3 +1,9 @@
+> [!NOTE]
+> Этот проект стал для меня чем-то вдохновляющим. Впервые я делал проект так долго. Это мое хобби. 
+> Сегодня, 04.10.26 я закрою этот репозиторий, ведь, надеюсь, что имя busync станет чем-то вдохновляющим других.
+> Пусть, я не стану великим, но это мое хобби. 
+> Репозиторий закрывается на неопределенный срок. Но не архивируется...
+
 # <div style="display: flex; justify-content: center; align-items: center;"><img src="sources/images/system/logo-only.png" style="height: 200px"></div><div style="display: flex; justify-content: center; align-items: center; gap: 20px">**BuSync - управляйте вашим бизнесом**</div><div style="display: flex; justify-content: center; align-items: center; gap: 20px; font-size: 20px">_⚙️ In dev: wait_</div>
 ## Roadmap:
 **MVP** - ГОТОВО
