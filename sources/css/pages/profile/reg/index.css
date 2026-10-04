@@ -1,0 +1,131 @@
+@import url("../../../base.css");
+* {
+  font-family: var(--sans-code);
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+body .main {
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+body .main--header, body .main--errors {
+  width: 100%;
+  padding: 20px;
+  border: var(--border);
+  border-radius: var(--border-rad);
+  color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+body .main--header {
+  background-color: var(--ex-three);
+}
+body .main--errors {
+  font-size: var(--ts-b);
+  background-color: var(--ex-eight);
+}
+body .main--body {
+  width: 100%;
+  padding: 20px;
+  background-color: var(--ex-five);
+  border: var(--border);
+  border-radius: var(--border-rad);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+body .main--body .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+body .main--body .form--field {
+  width: 100%;
+  padding: 20px 30px;
+  border: var(--border);
+  border-radius: var(--border-rad);
+  background-color: var(--ex-six);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+body .main--body .form--field--label {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  color: #fff;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6);
+}
+body .main--body .form--field--label img {
+  height: 25px;
+  filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.6));
+}
+body .main--body .form--field--label label {
+  font-size: var(--ts-p);
+}
+body .main--body .form--field--warring {
+  background-color: var(--ex-five);
+  border: var(--border);
+  border-radius: var(--border-rad);
+  padding: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+body .main--body .form--field--warring p {
+  color: #fff;
+  margin: 0;
+}
+body .main--body .form--field--input {
+  width: 100%;
+}
+body .main--body .form--field--input input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: var(--ts-i);
+  border: var(--border);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  transition: all 0.5s ease;
+}
+body .main--body .form--field--input input::-moz-placeholder {
+  font-style: italic;
+}
+body .main--body .form--field--input input::placeholder {
+  font-style: italic;
+}
+body .main--body .form--field--input #required::-moz-placeholder {
+  color: #fff;
+}
+body .main--body .form--field--input #required::placeholder {
+  color: #fff;
+}
+body .main--body .form--field--input #required:valid {
+  color: #fff;
+  background-color: var(--ex-one);
+}
+body .main--body .form--field--input #required:invalid {
+  color: #fff;
+  background-color: var(--ex-three);
+}
+body .main--body .form button {
+  cursor: pointer;
+  width: 100%;
+  padding: 30px 30px;
+  background-color: var(--ex-one);
+  color: #fff;
+  font-size: var(--ts-t);
+  border: var(--border);
+  border-radius: var(--border-rad);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+}
+body .main--body .form button:hover {
+  background-color: var(--ex-three);
+}/*# sourceMappingURL=index.css.map */

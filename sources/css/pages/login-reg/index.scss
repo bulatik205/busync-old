@@ -1,0 +1,103 @@
+@import url('../../base.css');
+
+* {
+    font-family: var(--sans-code);
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 500px;
+    height: 100vh;
+    width: 100%;
+
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .main--body {
+            width: 90%;
+            max-width: 700px;
+            padding: 40px;
+            border-radius: 20px;
+            border: var(--border);
+            display: flex;
+            flex-direction: column;
+
+            &--header {
+                h1 {
+                    font-size: var(--ts-title);
+                    margin: 0;
+                    margin-bottom: 20px;
+                }
+            }
+
+            &--errors {
+                padding: 10px;
+                border-radius: 15px;
+                background-color: var(--ex-eight);
+                border: var(--border);
+                margin-bottom: 20px;
+
+                p {
+                    font-size: var(--ts-b);
+                }
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .form--element {
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        font-size: var(--ts-p);
+                    }
+
+                    input {
+                        padding: 10px;
+                        border-radius: 10px;
+                        font-size: var(--ts-b);
+                    }
+                }
+
+                button {
+                    padding: 15px 45px;
+                    font-size: var(--ts-p);
+                    border-radius: 10px;
+                    background-color: var(--ex-three);
+                    color: #fff;
+                    transition: all 0.3s ease;
+                    margin-bottom: 20px;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: var(--ex-four);
+                        border-radius: 20px;
+                    }
+                }
+            }
+
+            p {
+                margin: 5px;
+
+                a {
+                    color: var(--ex-three);
+                    text-decoration: none;
+                    transition: all 0.3s ease;                    
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: var(--ex-four);
+                    }
+                }
+            }
+        }
+    }
+}

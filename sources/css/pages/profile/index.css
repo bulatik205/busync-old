@@ -1,0 +1,106 @@
+@import url("../../base.css");
+@import url("../dashboard/index.css");
+.right--center--panel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  padding: 0 40px;
+}
+.right--center--panel .profile--body--content button {
+  background-color: var(--ex-five);
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  margin: 20px 0;
+  font-size: var(--ts-b);
+}
+.right--center--panel .profile--body--content button:hover {
+  cursor: pointer;
+  background-color: var(--ex-three);
+}
+.right--center--panel .success {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  width: 300px;
+  background-color: var(--ex-one);
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.right--center--panel .error {
+  position: absolute;
+  background-color: var(--ex-eight);
+  display: none;
+  top: 0px;
+  left: 20px;
+  width: 300px;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.right--center--panel .profile--body {
+  max-width: 400px;
+}
+.right--center--panel .profile--body .custom-fields .profile--body--content input[type=text],
+.right--center--panel .profile--body .custom-fields .profile--body--content input[type=url],
+.right--center--panel .profile--body .custom-fields .profile--body--content input[type=number] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+.right--center--panel table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.right--center--panel table th,
+.right--center--panel table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+  min-width: 200px;
+  max-width: 300px;
+  word-wrap: break-word;
+}
+.right--center--panel table th button,
+.right--center--panel table td button {
+  background-color: var(--ex-five);
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.right--center--panel table th button:hover,
+.right--center--panel table td button:hover {
+  cursor: pointer;
+  background-color: var(--ex-three);
+}
+.right--center--panel table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.right--center--panel table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.right--center--panel table tr:hover {
+  background-color: #f5f5f5;
+}
+@media (max-width: 600px) {
+  .right--center--panel table {
+    font-size: 12px;
+  }
+  .right--center--panel th,
+  .right--center--panel td {
+    padding: 6px 8px;
+  }
+}/*# sourceMappingURL=index.css.map */

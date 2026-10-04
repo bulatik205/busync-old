@@ -1,0 +1,86 @@
+@import url("../../base.css");
+* {
+  font-family: var(--sans-code);
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 500px;
+  height: 100vh;
+  width: 100%;
+}
+body main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body main .main--body {
+  width: 90%;
+  max-width: 700px;
+  padding: 40px;
+  border-radius: 20px;
+  border: var(--border);
+  display: flex;
+  flex-direction: column;
+}
+body main .main--body--header h1 {
+  font-size: var(--ts-title);
+  margin: 0;
+  margin-bottom: 20px;
+}
+body main .main--body--errors {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: var(--ex-eight);
+  border: var(--border);
+  margin-bottom: 20px;
+}
+body main .main--body--errors p {
+  font-size: var(--ts-b);
+}
+body main .main--body form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body main .main--body form .form--element {
+  display: flex;
+  flex-direction: column;
+}
+body main .main--body form .form--element label {
+  font-size: var(--ts-p);
+}
+body main .main--body form .form--element input {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: var(--ts-b);
+}
+body main .main--body form button {
+  padding: 15px 45px;
+  font-size: var(--ts-p);
+  border-radius: 10px;
+  background-color: var(--ex-three);
+  color: #fff;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+body main .main--body form button:hover {
+  cursor: pointer;
+  background-color: var(--ex-four);
+  border-radius: 20px;
+}
+body main .main--body p {
+  margin: 5px;
+}
+body main .main--body p a {
+  color: var(--ex-three);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+body main .main--body p a:hover {
+  text-decoration: underline;
+  color: var(--ex-four);
+}/*# sourceMappingURL=index.css.map */
